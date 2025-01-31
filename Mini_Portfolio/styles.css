@@ -28,31 +28,30 @@ img {
 }
 
 #icon {
-  display: flex; /* Align icons horizontally */
-  justify-content: center; /* Center icons */
-  margin-top: 10px; /* Add spacing between icons and other content */
+  display: flex;
+  justify-content: center; 
+  margin-top: 10px;
 }
 
 #icon,
 #icon a,
 #icon img {
-  pointer-events: auto; /* Pastikan elemen bisa diklik */
+  pointer-events: auto;
 }
 
 #icon a {
-  margin: 5px; /* Space between icons */
+  margin: 5px;
   display: inline-block;
-  position: relative; /* Ensure z-index works */
-  z-index: 10; /* Make sure icons are clickable */
+  position: relative;
+  z-index: 10;
 }
 
 #icon img {
   width: 30px;
   height: 30px;
-  transition: transform 0.3s; /* Smooth hover effect */
+  transition: transform 0.3s;
 }
 
 #icon a:hover img {
-  transform: scale(1.2); /* Slight zoom-in on hover */
-  background-color: lightgreen; /* Debug: tes hover */
+  transform: scale(1.2);
 }
